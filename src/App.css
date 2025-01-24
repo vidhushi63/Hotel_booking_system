@@ -1,0 +1,52 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.random-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.random-button:hover {
+  background-color: #e0a800;
+}
+
+.reset-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+}
+.room-box{
+  border: 2px solid black;
+}
+.room-box {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: default;
+}
+
+.room-box.available {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.room-box.occupied {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
